@@ -10,7 +10,7 @@ import { ShoppingListService } from "./shopping-list/shooping-list.service";
 
     ],
     providers: [
-        ShoppingListService, 
+        //ShoppingListService, 
         RecipeService, 
         {
             provide: HTTP_INTERCEPTORS, 
